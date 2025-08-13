@@ -7,14 +7,30 @@
     </head>
 
     <body>
-        <form>
-            <input type="text" name="search-bar" placeholder="Search" />
+        <header>Welcome to getTheWeatherSoICanMoveOnToTheNextProject.io</header>
+        <nav>
+            <form>
+                <input type="text" name="search-bar" placeholder="Search" />
+                <button type="submit">
+                    <span class="search-icon"
+                        ><img src="./assets/search.svg"
+                    /></span>
+                </button>
+            </form>
+            <span class="celsius">°C</span>
 
-            <button type="submit">
-                <span class="search-icon"
-                    ><img src="./assets/search.svg"
-                /></span>
-            </button>
-        </form>
+            <label class="switch">
+                <input type="checkbox" />
+                <span class="slider round"></span>
+            </label>
+            <span class="fahrenheit">°F</span>
+        </nav>
+
+        <img
+            src="./assets/waiting.gif"
+            width="200px"
+            height="200px"
+            class="mike visible"
+        />
     </body>
 </html>
