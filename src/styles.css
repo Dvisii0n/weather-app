@@ -1,0 +1,44 @@
+body {
+    background-color: #101828;
+    color: aliceblue;
+}
+
+button[type="submit"] {
+    border: none;
+    background: none;
+}
+
+form {
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    align-items: center;
+}
+
+input[name="search-bar"] {
+    font-size: 14px;
+    padding: 2px 0px 2px 8px;
+    width: 20%;
+    height: 23px;
+    border-radius: 8px;
+    color: aliceblue;
+    border: 1px solid #2e3c57;
+    background-color: #2e3c57;
+}
+
+input[name="search-bar"]:focus {
+    outline: 1px solid #1d479b;
+}
+
+.search-icon {
+    flex-grow: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-icon > img:hover {
+    cursor: pointer;
+    filter: brightness(0) saturate(100%) invert(9%) sepia(67%) saturate(36%)
+        hue-rotate(338deg) brightness(100%) contrast(81%);
+}
